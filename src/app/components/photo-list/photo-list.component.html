@@ -1,0 +1,8 @@
+<div class="spinner-container">
+    <mat-spinner *ngIf="loading"></mat-spinner>
+</div>
+<mat-grid-list cols="6" *ngIf="!loading">
+    <mat-grid-tile *ngFor="let photo of photos">
+        <img src="{{photo.thumbnailUrl}}" class="photo-thumbnail" (click)="openDialog(photo)">
+    </mat-grid-tile>
+</mat-grid-list>

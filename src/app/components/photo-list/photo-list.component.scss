@@ -1,0 +1,15 @@
+:host {
+    z-index: 1;
+}
+
+.photo-thumbnail {
+    cursor: pointer;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    .mat-spinner {
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.photo-url {
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.photo-info {
+    display: flex;
+    justify-content: space-evenly;
+    p {
+        margin-bottom: 0px;
+    }
+}
+
+.mat-dialog-content {
+    font-weight: 500;
+}
